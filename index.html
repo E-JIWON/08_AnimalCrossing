@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+     <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Favorite Animal</title>
+          <link rel="stylesheet" href="./css/reset.css">
+          <link rel="stylesheet" href="./css/index.css">         
+	
+          <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+          <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+
+          <script type="text/javascript" src="https://www.jeasyui.com/easyui/jquery.min.js"></script>
+          <script type="text/javascript" src="https://www.jeasyui.com/easyui/jquery.easyui.min.js"></script>
+
+          <link rel="stylesheet" type="text/css" href="http://www.jeasyui.com/easyui/themes/default/easyui.css">
+          <link rel="stylesheet" type="text/css" href="http://www.jeasyui.com/easyui/themes/icon.css">
+
+          <script src="./js/main.js"></script>
+          <link href="img/favi_1.png" rel="shortcut icon" type="image/x-icon">
+
+     </head>
+     <body>
+          <section class="anmail_info_popup">
+               <section class="info_img">
+                    <!-- <div></div> -->
+                    <!-- <iframe src="../mp3/goldie_sing.mp3" allow="autoplay" id="iframeAudio"></iframe>  -->
+                    <div id="sound_btn" class="no_sound"></div>
+                         <audio src="./mp3/goldie_sing.mp3" id="audio"></audio>
+                    <span class="audio_btn"></span>
+               </section>
+               <section class="info_content">
+                    <section class="info_normal">
+                         <!-- <div class="info_name">
+                              <h2>카라멜</h2>
+                         </div>
+                         <div class="info_p_h">
+                              <p>
+                                   <span>생일</span>
+                                   <span class="birthday">12월 27일</span>
+                              </p>
+                              <p>
+                                   <span>성격</span>
+                                   <span class="personality">친절함</span>
+                              </p>
+                              <p>
+                                   <span>말버릇</span>
+                                   <span class="habit">왈왈</span>
+                              </p>
+                         </div>
+                         <p class="motto">
+                              <strong>"중간 정도의 행복이 가장 좋다."</strong>
+                         </p>
+                         <div class="favorite">
+                              <span>
+                                   좋아하는 것
+                              </span>
+                              <div>
+                                   <p id="carrot"></p>
+                                   <p id="doggum"></p>
+                                   <p id="acorn"></p>
+                              </div>
+                         </div> 
+                    
+                    -->
+                    </section>
+                    <!-- <section class="info_detail">
+                         <strong> -->
+                              <!-- 나는 코스모스 섬에서 왔어!! 거기는 K.K의 앨범을 팔지 않아서 별루였지 모야 왈왈- -->
+                         <!-- </strong>
+                    </section> -->
+               </section>
+               
+               <section class="close_btn">
+                    <span>닫기</span>
+               </section>
+          </section>
+
+          <section id="speech">
+               <div class="speech_name">
+                    <h3></h3>
+               </div>
+               <span class="type_text"></span>
+               <div class="speech_close_btn">닫기</div>
+          </section>
+
+          <section class="favorability_wrap">
+               <div class="g_favo">
+                    <p class="tag_wrap">
+                         <span></span>
+                         <strong>0</strong>
+                    </p>
+               </div>
+               <div class="m_favo">
+                    <p class="tag_wrap">
+                         <span></span>
+                         <strong>0</strong>
+                    </p>
+               </div>
+               <div class="v_favo">
+                    <p class="tag_wrap">
+                         <span></span>
+                         <strong>0</strong>
+                    </p>
+               </div>
+          </section>
+
+          <section class="explanation" id="explanation_id">
+               <span>설명</span>
+          </section>
+
+          <!-- 설명팝업 -->
+          <section class="explan_popup">
+               <!-- <div></div> -->
+               <span class="close_btn">닫기</span>
+          </section>
+
+          <section class="all_conetnet_wrap">
+               <section class="animal_wrap">
+                    <div id="goldie" class="animal_img_div goldie"></div>
+                    <div id="marshal" class="animal_img_div marshal"></div>
+                    <div id="vesta" class="animal_img_div vesta"></div>
+               </section>
+               <section class="item_wrap food">
+                    <!-- <h3>음식</h3> -->
+                    <div class="favorite_item" id="carrot"></div>
+                    <div class="favorite_item" id="doggum"></div>
+                    <div class="favorite_item" id="acorn"></div>
+               </section>
+               <section class="item_wrap color">
+                    <!-- <h3>색상</h3> -->
+                    <div class="favorite_item" id="red"></div>
+                    <div class="favorite_item" id="yellow"></div>
+                    <div class="favorite_item" id="blue"></div>
+               </section>
+               <section class="item_wrap habby">
+                    <!-- <h3>취미</h3> -->
+                    <div class="favorite_item" id="fashion"></div>
+                    <div class="favorite_item" id="music"></div>
+                    <div class="favorite_item" id="walk"></div>
+               </section>
+          </section>
+     </body>
+</html>

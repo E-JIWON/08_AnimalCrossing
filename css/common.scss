@@ -1,0 +1,49 @@
+@charset 'utf-8';
+
+@font-face {
+     font-family: 'gothicM';
+     src: url("../ttf/a영고딕M.ttf");
+}
+@font-face {
+     font-family: 'gothicB';
+     src: url("../ttf/a영고딕B.ttf");
+}
+@font-face {
+     font-family: 'gothicL';
+     src: url("../ttf/a영고딕L.ttf");
+}
+@font-face {
+     font-family: 'gothicE';
+     src: url("../ttf/a영고딕E.ttf");
+}
+@font-face {
+     font-family: 'nalooM';
+     src: url("../ttf/a신디나루M.ttf");
+}
+@font-face {
+     font-family: 'nalooB';
+     src: url("../ttf/a신디나루B.ttf");
+}
+$gM : 'gothicM';
+$gB : 'gothicB';
+$gL : 'gothicL';
+$gE : 'gothicE';
+$nM : 'nalooM';
+$nB : 'nalooB';
+
+$white_color: #fff9e4;
+$black_color: #54200c;
+
+$point_color_green : #1ac8b9;
+$point_color_brawn : #df852e;
+$point_color_pink: #f27788;
+$point_colo_yellow :  #feec9e;
+$point_color_circle : #eee1c8;
+
+$font_color_one :  #837156;
+$font_color_two :  #7e693a;
+$font_color_three: #fffae1;
+$font_color_pink: #e5e5e5;
+
+$btn_color_bg: #cec6ba;
+$btn_color_font : #928e83;

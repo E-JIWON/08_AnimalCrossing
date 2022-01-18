@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'gothicM';
+  src: url("../ttf/a영고딕M.ttf");
+}
+
+@font-face {
+  font-family: 'gothicB';
+  src: url("../ttf/a영고딕B.ttf");
+}
+
+@font-face {
+  font-family: 'gothicL';
+  src: url("../ttf/a영고딕L.ttf");
+}
+
+@font-face {
+  font-family: 'gothicE';
+  src: url("../ttf/a영고딕E.ttf");
+}
+
+@font-face {
+  font-family: 'nalooM';
+  src: url("../ttf/a신디나루M.ttf");
+}
+
+@font-face {
+  font-family: 'nalooB';
+  src: url("../ttf/a신디나루B.ttf");
+}
+/*# sourceMappingURL=common.css.map */
